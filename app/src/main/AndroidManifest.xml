@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.joltindia.jolt.jolt">
+
+
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA" tools:node="remove" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.joltindia.jolt.jolt.SplashActivity"
+            android:label="@string/app_name"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.joltindia.jolt.jolt.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.joltindia.jolt.jolt.step2"
+            android:label="@string/title_activity_info1"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.joltindia.jolt.jolt.step1"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.step3"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.faq"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.fare"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.hotspot"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.step4"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.list"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.timings"
+            android:screenOrientation="portrait"/>
+       <activity android:name="com.joltindia.jolt.jolt.home"
+           android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.qrcode"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.queries"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.joltindia.jolt.jolt.terms"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

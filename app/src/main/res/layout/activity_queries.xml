@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joltindia.jolt.jolt.queries"
+    android:background="@drawable/register_back">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textViewUserEmail"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:textColor="#ffffff"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Verified"
+        android:id="@+id/verify"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/textViewUserEmail"
+        android:layout_alignLeft="@+id/textView"
+
+
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send mail"
+        android:id="@+id/verif"
+
+        android:layout_marginLeft="260dp"
+
+        android:layout_marginTop="85dp"
+        android:layout_below="@+id/textViewUserEmail"
+
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unable to book?\nResend confirmation mail"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="190dp"
+
+        android:layout_alignLeft="@+id/textViewUserEmail"
+
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout?"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+
+
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queries"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

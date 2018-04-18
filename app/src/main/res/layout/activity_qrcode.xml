@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joltindia.jolt.jolt.qrcode"
+    android:background="@drawable/login_back">
+
+
+    <TextView
+        android:id="@+id/thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for booking with us."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/booking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking Id :"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="uid"
+        android:textColorHint="#ffffff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="118dp"/>
+
+    <TextView
+        android:id="@+id/qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show the qrcode at the helpdesk to start your ride."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="170dp"
+        android:text="Generate" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:text="Retrieve Data" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="19dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/view">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="240dp"
+            android:id="@+id/image"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

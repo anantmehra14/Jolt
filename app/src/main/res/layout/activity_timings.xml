@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joltindia.jolt.jolt.timings"
+    android:background="@drawable/login_back">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. of passengers:"
+        android:id="@+id/tv"
+        android:textStyle="bold"
+       android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/tv2"
+        android:layout_alignStart="@+id/tv2" />
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:layout_marginBottom="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:layout_alignTop="@+id/tv"
+        android:layout_toRightOf="@+id/tv2"
+        android:layout_toEndOf="@+id/tv2">
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/tv"
+            android:layout_alignRight="@+id/tv3"
+            android:layout_alignEnd="@+id/tv3" />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/r1"
+            android:layout_alignStart="@+id/r1"
+            android:layout_alignTop="@+id/rg"
+            android:text="2"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="Enter pick up time:"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_below="@+id/rg"
+        android:layout_toLeftOf="@+id/tv5"
+        android:layout_toStartOf="@+id/tv5"
+        android:layout_marginTop="34dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:textSize="18dp"
+
+        android:layout_below="@+id/tv2"
+        android:layout_alignLeft="@+id/tv5"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/tv5"
+        android:layout_marginTop="42dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:text="Enter drop off time:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/b1"
+        android:layout_alignLeft="@+id/tv2"
+
+        android:layout_alignStart="@+id/tv2"
+        android:layout_marginTop="38dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+
+        android:textSize="18dp"
+        android:layout_marginTop="19dp"
+        android:layout_alignTop="@+id/b2"
+        android:layout_toRightOf="@+id/b4"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/b4"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <ImageButton
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clock"
+        android:layout_below="@+id/tv2"
+        android:layout_alignLeft="@+id/tv2"
+        android:layout_alignStart="@+id/tv2"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="18dp" />
+
+    <ImageButton
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clock"
+        android:layout_below="@+id/tv4"
+        android:layout_alignLeft="@+id/b1"
+        android:layout_alignStart="@+id/b1"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="30dp"/>
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+

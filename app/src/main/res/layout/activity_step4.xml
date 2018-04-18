@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/lin_lay"
+    android:background="@drawable/register_back"
+    >
+
+<!--
+
+
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adhaar Photo :"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="40sp"
+        android:textColor="#ffffff"
+
+        />
+
+
+    <Button
+        android:id="@+id/buttonChoosed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_weight="1"
+        android:text="Choose"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/buttonUploadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Upload Photo"
+        android:textStyle="bold"
+        android:layout_below="@id/text2"
+        android:layout_toRightOf="@id/buttonChoosed"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/Button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="finish"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="110sp"
+        android:layout_marginTop="400sp"/>
+
+    <ImageView
+        android:id="@+id/imageaadhar"
+        android:layout_width="200sp"
+        android:layout_height="250sp"
+        android:layout_marginLeft="85sp"
+        android:layout_marginTop="130sp"/>
+
+
+    -->
+
+
+</RelativeLayout>

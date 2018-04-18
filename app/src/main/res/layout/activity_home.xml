@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scrolling_image_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+
+
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_back"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="356dp">
+
+        <com.q42.android.scrollingimageview.ScrollingImageView
+            android:id="@+id/scrolling_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            scrolling_image_view:speed="1dp"
+            scrolling_image_view:src="@drawable/road"/>
+
+        <com.q42.android.scrollingimageview.ScrollingImageView
+            android:id="@+id/scrolling_foreground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            scrolling_image_view:speed="2.5dp"
+            scrolling_image_view:src="@drawable/road" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/scooter5scroll" />
+
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book a Jolt :"
+        android:layout_marginTop="162dp"
+       android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel your ride :"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:layout_alignLeft="@+id/book"
+        android:textColor="#ffffff"
+        android:layout_marginTop="262dp"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_book"
+            android:text="BOOK"
+            android:textStyle="bold"
+
+        android:layout_alignBaseline="@+id/book"
+        android:layout_alignBottom="@+id/book"
+        android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_cancel"
+            android:text="CANCEL"
+            android:textStyle="bold"
+
+            android:layout_alignBaseline="@+id/cancel"
+            android:layout_alignBottom="@+id/cancel"
+            android:layout_toRightOf="@+id/cancel"
+            android:layout_toEndOf="@+id/cancel" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/log"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView_home"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/scooter543"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/button_book"
+        android:layout_toRightOf="@+id/button_book"
+        android:layout_toEndOf="@+id/button_book"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/cancellation"
+
+        android:layout_toRightOf="@+id/button_cancel"
+        android:layout_toEndOf="@+id/button_cancel"
+        android:layout_marginTop="255dp"/>
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* To view your booking pass"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="450dp"/>
+
+    <TextView
+        android:id="@+id/book_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:textSize="15dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="455dp"
+       android:textStyle="bold"
+        android:layout_toRightOf="@id/view"
+        android:layout_marginLeft="5dp"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
